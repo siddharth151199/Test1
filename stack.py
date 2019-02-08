@@ -11,7 +11,7 @@ class Stack():
 	def push(self, val):
 		if len(self.stack) >= self.limit:
 			return "Full"
-		stack.append(val)
+		self.stack.append(val)
 	
 	def pop(self, val):
 		if len(self.stack) == self.limit:
